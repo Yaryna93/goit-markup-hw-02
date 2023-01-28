@@ -4,6 +4,7 @@ font-family: 'Roboto', sans-serif;
 
 .link {
 text-decoration: none;
+color:#434455;
 }
 
 .list {
@@ -14,6 +15,9 @@ list-style: none;
 
 .header-navigation {}
 
+.accent {
+  color:#4D5AE5;
+}
 .header-logo {}
 
 .header-list {}
@@ -48,6 +52,6 @@ list-style: none;
   color: #434455;
 }
 
-.header-address-link:is(hover,:focus){
+.header-address-link:is(:hover,:focus){
   color:#404BBF;
 }
