@@ -11,6 +11,8 @@ color:#434455;
 list-style: none;
 }
 
+/*-------------HEADER--------------- */
+
 .header {}
 
 .header-navigation {}
@@ -55,3 +57,13 @@ list-style: none;
 .header-address-link:is(:hover,:focus){
   color:#404BBF;
 }
+
+/*----------MAIN--------*/
+
+.filter {}
+
+.filter-list {}
+
+.list {}
+
+.filter-link {}
