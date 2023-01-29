@@ -1,6 +1,6 @@
 body {
 font-family: 'Roboto', sans-serif;
-color:#2E2F42;
+color:#434455;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -38,7 +38,7 @@ list-style: none;
   font-family: 'Raleway',sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 1.33;
   text-transform: uppercase;
 }
 
@@ -84,8 +84,75 @@ list-style: none;
 
 /*----------MAIN--------*/
 
-.hidden {
-  display: none;
+.hero {
+  background: #2E2F42;
+}
+.text-main {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #FFF;
+}
+
+.main-text {
+
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.text-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2E2F42;
+}
+
+.text-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.names {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.names-backgr {
+  background: #FFFFFF;
+
+}
+
+.teams {
+  font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.paragraph-text {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #434455;
 }
 
 
@@ -106,11 +173,21 @@ color: #4D5AE5;
   background-color: #404BBF;
   color:#FFF;
 }
-
+.button {
+  font-family: inherit;
+  cursor: pointer;
+  background-color:#4D5AE5;
+  color:#FFFFFF;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  
+}
 .concept-item {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.2px;
+  line-height: 1.2;
   color: #2E2F42;
 }
 .projects-text {
