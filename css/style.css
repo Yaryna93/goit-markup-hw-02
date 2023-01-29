@@ -12,8 +12,8 @@ address {
 
 .link {
 text-decoration: none;
-color:#434455;
-font:inherit;
+color: #434455;
+font: inherit;
 }
 
 .list {
@@ -30,9 +30,12 @@ list-style: none;
   color:#4D5AE5;
 }
 
+.accent-logo {
+  color: #F4F4FD;
+}
+
 .logo {
-  font-family: 'Raleway';
-  font-style: normal;
+  font-family: 'Raleway',sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 24px;
@@ -40,8 +43,6 @@ list-style: none;
 }
 
 .header-list {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -89,8 +90,6 @@ list-style: none;
 
 
 .filter-list {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5px;
@@ -109,16 +108,12 @@ color: #4D5AE5;
 }
 
 .concept-item {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2px;
   color: #2E2F42;
 }
 .projects-text {
-font-family: 'Roboto';
-font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5px;
@@ -130,10 +125,13 @@ color: #434455;
 
 /*-------FOOTER--------*/
 .footer-text {
-font-family: 'Roboto';
-font-style: normal;
+color: #E7E9FC;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5px;
 letter-spacing: 0.02em;
+}
+
+.footer {
+background-color: #2E2F42;
 }
