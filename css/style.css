@@ -1,10 +1,16 @@
 :root {
-  
+--main-color:#434455;
+--primary-color: #2E2F42;
+--secondory-color: #F4F4FD;
+--secondary-font-color:#FFFFFF;
+--accent-color: #4D5AE5;
+--hover-color:#404BBF;
+--footer-text:#E7E9FC;
 }
 
 body {
 font-family: 'Roboto', sans-serif;
-color:#2E2F42;
+color:var(--primary-color);
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -16,7 +22,7 @@ address {
 
 .link {
 text-decoration: none;
-color: #434455;
+color: inherit;
 font: inherit;
 }
 
@@ -31,11 +37,11 @@ list-style: none;
 .header-navigation {}
 
 .accent {
-  color:#4D5AE5;
+  color:var(--accent-color);
 }
 
 .accent-logo {
-  color: #F4F4FD;
+  color: var(--secondory-color);
 }
 
 .logo {
@@ -59,44 +65,34 @@ list-style: none;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2E2F42;
+  color: var(--primary-color);
 }
 
-.header-link:is(:hover,:focus) {
-  color:#404BBF;
-}
 
 .header-address {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  
 }
 
-.header-address {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
 
 .header-address-link:is(:hover,:focus){
-  color:#404BBF;
+  color:var(--hover-color);
 }
 
 /*----------MAIN--------*/
 
 .hero {
-  background: #2E2F42;
+  background: var(--primary-color);
 }
 .text-main {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #FFF;
+  color: var(--secondary-font-color);
 }
 
 .main-text {
@@ -121,14 +117,14 @@ list-style: none;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2E2F42;
+  color: var(--primary-color);
 }
 
 .text-description {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--main-color);
 }
 
 .names {
@@ -140,7 +136,7 @@ list-style: none;
 }
 
 .names-backgr {
-  background: #FFFFFF;
+  background: var(--secondary-font-color);
 
 }
 
@@ -153,7 +149,7 @@ list-style: none;
 }
 .paragraph-text {
  text-align: center;
- color: #434455;
+ color: var(--main-color);
 }
 
 
@@ -161,30 +157,30 @@ list-style: none;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5px;
-  color:#4D5AE5
+  color:var(--accent-color)
 }
 .filter-button {
   font-family: inherit;
 cursor: pointer;
-background-color: #F4F4FD;
+background-color: var(--secondory-color);
 padding: 12px 24px;
 border-radius: 4px;
-color: #4D5AE5;
+color: var(--accent-color);
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 
 }
 .filter-current, filter-button:is(:hover,:focus) {
-  background-color: #404BBF;
-  color: #FFF;
+  background-color: var(--hover-color);
+  color: var(--secondary-font-color);
 }
 
 .button, button:is(:hover, :focus) {
   font-family: inherit;
   cursor: pointer;
-  background-color:#4D5AE5;
-  color:#FFFFFF;
+  background-color:var(--accent-color);
+  color:var(--secondary-font-color);
   letter-spacing: 0.04em;
   font-weight: 500;
   font-size: 16px;
@@ -192,32 +188,33 @@ line-height: 1.5;
 }
 
 .button-curent, button:is(:hover, :focus) {
-  background-color: #404BBF;
-  color: #FFF;}
+  background-color: var(--hover-color);
+  color: var(--secondary-font-color);
+}
 
 .concept-item {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  color: #2E2F42;
+  color: var(--primary-color);
 }
 .projects-text {
 font-size: 16px;
 line-height: 1.5;
-color: #434455;
+color: var(--main-color);
 }
 .section-inverse {
-  background-color: #F4F4FD;
+  background-color: var(--secondory-color);
 }
 
 /*-------FOOTER--------*/
 .footer-text {
-color: #E7E9FC;
+color: var(--footer-text);
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 }
 
 .footer {
-background-color: #2E2F42;
+background-color: var(--primary-color);
 }
